@@ -9,3 +9,7 @@ bar.addEventListener("click", () => {
     barI.classList.replace("fa-xmark", "fa-bars");
   }
 });
+let header = document.querySelector("header");
+window.addEventListener("scroll", () => {
+  header.classList.toggle("active", window.scrollY > 20);
+});
