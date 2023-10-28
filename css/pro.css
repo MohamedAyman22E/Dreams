@@ -601,6 +601,9 @@ section{
     .about-content h2{
         font-size: 25px;
     }
+    .navlist{
+        padding: 0 30%;
+    }
 }
 @media (max-width:475px){
     .categories-heading h2{
@@ -623,14 +626,23 @@ section{
     .courses-heading h2{
         font-size:20px;
     }
+    .navlist{
+        padding: 0 40%;
+    }
 }
 @media (max-width:410px){
     .about-content h2{
         font-size: 20px;
     }
+    .navlist{
+        padding: 0 50%;
+    }
 }
 @media (max-width:350px){
     .about-content h2{
         font-size: 15px;
+    }
+    .navlist{
+        padding: 0 60%;
     }
 }
